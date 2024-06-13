@@ -1,2 +1,2 @@
 #!/bin/bash
-/alx-system_engineering-devops/0x00-shell_basics# vi 0-current_working_directory
+echo "/alx-system_engineering-devops/0x00-shell_basics"
