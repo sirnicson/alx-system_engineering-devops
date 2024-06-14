@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -A | sort -f | tr '\n' ',' | sed 's/,$/\n/'
+ls -amp
