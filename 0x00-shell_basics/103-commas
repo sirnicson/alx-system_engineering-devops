@@ -1,2 +1,2 @@
 #!/bin/bash
-(ls -ap | grep -v /$ | sort -f; ls -ap | grep /$ | sort -f) | tr '\n' ',' | sed 's/,$/\n/'
+ls -ap | grep -E -v '/$|/$' | sort -f | tr '\n' ',' | sed 's/,$/\n/'
