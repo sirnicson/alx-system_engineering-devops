@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
-# Displays the content of the current directory in a list format,
-# showing only the part of the name after the first dash.
+# Bash script that displays:
+# The content of the current directory
+# In a list format
+# Where only the part of the name after the first dash is displayed
 
 for file in *; do
-  # Check if the file name contains a dash
-  if [[ "$file" == *-* ]]; then
-    # Extract the part after the first dash
-    echo "${file#*-}"
-  fi
+    # Check if the file contains a dash
+    if [[ "$file" == *-* ]]; then
+        # Use cut to extract the part after the first dash
+        echo "$file" | cut -d "-" -f 2-
+    fi
 done
