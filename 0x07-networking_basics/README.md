@@ -12,7 +12,7 @@ Must include a comment in the second line explaining the script's purpose.
 Must be executable and pass shellcheck without errors.
 Must end with a new line.
 
-## File Descriptions
+## Tasks
 
 ### Task 0: OSI Model
 File: 0-OSI_model
