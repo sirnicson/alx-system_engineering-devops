@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# Bash script that configures an Ubuntu server with:
+# localhost resolves to 127.0.0.2
+# facebook.com resolves to 8.8.8.8
+
+# Backup the original /etc/hosts
+cp /etc/hosts /etc/hosts.bak
+
+# Modify the localhost entry to resolve to 127.0.0.2
+sed -i 's/127.0.0.1/127.0.0.2/' /etc/hosts
+
+# Add an entry for facebook.com to resolve to 8.8.8.8, removing any existing one
+sed -i '/facebook.com/d' /etc/hosts
+echo "8.8.8.8 facebook.com" | sudo tee -a /etc/hosts > /dev/null
+
+# Confirm the changes
+echo "Changes applied successfully. Updated /etc/hosts:"
+cat /etc/hosts
