@@ -1,5 +1,7 @@
 # 0x09. Web Infrastructure Design
 
+![image](https://github.com/user-attachments/assets/ae4ffd53-c49d-4f21-b467-c54efb7448db)
+
 ##Project Overview
 This project focuses on designing web infrastructure systems. The goal is to create diagrams and explanations for different web infrastructure setups, ensuring that each design meets the specified requirements. Each task involves creating a detailed whiteboard diagram, explaining the components, and simulating a real-world scenario.
 
