@@ -17,7 +17,12 @@ This project focuses on designing web infrastructure systems. The goal is to cre
 - Description: Create a three-server web infrastructure that hosts the website www.foobar.com.
 - Scenario: Demonstrate load balancing and redundancy in the design. Include details about how requests are distributed and handled.
 
-3. Scale Up
+3. Secured and monitored web infrastructure
+- File: 2-secured_and_monitored_web_infrastructure
+- Description: Add security layer to distributed infrastructure.
+- Scenario: SSL certificate, Firewall and monitoring clients 
+  
+4. Scale Up
 - File: 3-scale_up
 - Description: Modify the distributed infrastructure to handle increased traffic.
 - Scenario: Specify the changes made to improve scalability, fault tolerance, and performance.
